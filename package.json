@@ -1,5 +1,5 @@
 {
-  "name": "greet",
+  "name": "native-addon-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/thatisuday/native-addon-example.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Uday Hiwarale<thatisuday@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thatisuday/native-addon-example/issues"
