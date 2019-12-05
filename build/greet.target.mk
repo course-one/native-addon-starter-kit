@@ -47,14 +47,14 @@ CFLAGS_OBJC_Debug :=
 CFLAGS_OBJCC_Debug :=
 
 INCS_Debug := \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/include/node \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/src \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/openssl/config \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/openssl/openssl/include \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/uv/include \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/zlib \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/v8/include \
-	-I$(srcdir)/node_modules/node-addon-api
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/include/node \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/src \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/openssl/config \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/openssl/openssl/include \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/uv/include \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/zlib \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/v8/include \
+	-I/Users/Uday.Hiwarale/uday-gh/native-addon-example/node_modules/node-addon-api
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=greet' \
@@ -98,14 +98,14 @@ CFLAGS_OBJC_Release :=
 CFLAGS_OBJCC_Release :=
 
 INCS_Release := \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/include/node \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/src \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/openssl/config \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/openssl/openssl/include \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/uv/include \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/zlib \
-	-I/Users/Uday.Hiwarale/.node-gyp/8.16.1/deps/v8/include \
-	-I$(srcdir)/node_modules/node-addon-api
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/include/node \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/src \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/openssl/config \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/openssl/openssl/include \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/uv/include \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/zlib \
+	-I/Users/Uday.Hiwarale/Library/Caches/node-gyp/8.16.1/deps/v8/include \
+	-I/Users/Uday.Hiwarale/uday-gh/native-addon-example/node_modules/node-addon-api
 
 OBJS := \
 	$(obj).target/$(TARGET)/src/greeting.o \
